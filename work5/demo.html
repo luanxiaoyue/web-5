@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>插入表格</title>
+	<meta charset="utf-8">
+</head>
+<body>
+<table>
+	<tr>
+		<td width="79 bgcolor="#ffffff">用户名：</td>
+		<td width="309" bgcolor="#ffffff"><input type="text"></td>
+	</tr>
+	<tr>
+		<td width="79" bgcolor="#ffffff">密码：</td>
+		<td width="309" bgcolor="#ffffff"><input type="password"></td>
+	</tr>
+	<tr>
+		<td width="79" bgcolor="#ffffff">确认密码：</td>
+		<td width="309" bgcolor="#ffffff"><input type="password"></td>
+	</tr>
+	<tr>
+		<td width="79" bgcolor="#ffffff">性别：</td>
+		<td>
+		<input type="radio" name="sex" checked="checked">男
+		<input type="radio" name="sex">女</td>
+	</tr>
+	<tr>
+		<td width="79">生日：</td>
+			<td><select>
+				<option>公历</option>
+			</select>
+			<select>
+				<option>年 &nbsp;</option>
+			</select>
+			<select>
+				<option>月 &nbsp;</option>
+			</select>
+			<select>
+				<option>日 &nbsp;</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td width="79">所在地：</td>
+		<td>
+			<select>
+				<option>中国</option>
+			</select>
+			<select>
+				<option>河北</option>
+			</select>
+			<select>
+				<option>石家庄</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td width="79">验证码：</td>
+		<td><input type="text"><img src="images/yanzhengma.jpg" width="50" height="20"></td>
+	</tr>
+	<tr>
+		<td width="79">证件类型：</td>
+		<td>
+			<select>
+				<option>身份证</option>
+			</select>
+		</td>
+	</tr>
+	<tr>
+		<td width="79">证件号:</td>
+		<td><input type="text"></td>
+	</tr>
+	<tr>
+		<td width="79">爱好：</td>
+		<td><input type="checkbox" name="like">音乐
+		<input type="checkbox" name="like" checked="checked">读书
+		<input type="checkbox" name="like" checked="checked">跳舞
+		<input type="checkbox" name="like" >下棋
+		<input type="checkbox" name="like">其他
+	</td>
+	</tr>
+	<tr>
+		<td width="79">说明：</td>
+		<td><textarea rows="3" cols="20"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td width="79">上传头像</td>
+		<td><input type="file"></td>
+	</tr>
+	<tr>
+	<td width="200">
+	<input type="submit" value="提交" >
+	<input type="reset" value="重置">
+	<input type="button" value="按钮">
+	</td>
+	</tr>
+</table>
+</body>
+</html>
